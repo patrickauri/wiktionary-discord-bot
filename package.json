@@ -1,0 +1,22 @@
+{
+  "name": "wiktionary-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for using the Wiktionary API to get dictionary entries to post in a text chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "nodemon api.js"
+  },
+  "keywords": [
+    "discord",
+    "wiktionary",
+    "bot"
+  ],
+  "author": "Patrick Auri",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
